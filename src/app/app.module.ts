@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { FormsModule } from '@angular/forms';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
+import { FriendsviewComponent } from './friendsview/friendsview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
-    AdminhomeComponent
+    AdminhomeComponent,
+    FriendsviewComponent
   ],
   imports: [
     BrowserModule,
