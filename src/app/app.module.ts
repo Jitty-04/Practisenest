@@ -12,6 +12,7 @@ import { NavadminComponent } from './navadmin/navadmin.component';
 import { EmploginComponent } from './emplogin/emplogin.component';
 import { EmphomeComponent } from './emphome/emphome.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AddfriendComponent } from './addfriend/addfriend.component';
     NavadminComponent,
     EmploginComponent,
     EmphomeComponent,
-    AddfriendComponent
+    AddfriendComponent,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,
