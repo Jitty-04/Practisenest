@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { FriendsviewComponent } from './friendsview/friendsview.component';
 import { CourseviewComponent } from './courseview/courseview.component';
+import { NavadminComponent } from './navadmin/navadmin.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CourseviewComponent } from './courseview/courseview.component';
     AdminComponent,
     AdminhomeComponent,
     FriendsviewComponent,
-    CourseviewComponent
+    CourseviewComponent,
+    NavadminComponent
   ],
   imports: [
     BrowserModule,
