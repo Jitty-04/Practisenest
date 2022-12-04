@@ -13,6 +13,43 @@ import { EmploginComponent } from './emplogin/emplogin.component';
 import { EmphomeComponent } from './emphome/emphome.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { AddcourseComponent } from './addcourse/addcourse.component';
+import { NavempComponent } from './navemp/navemp.component';
+import { Routes } from '@angular/router';
+const myRouter:Routes=[
+  {
+    path:"",
+    component:AdminComponent
+  },
+ 
+  {
+    path:"adminhome",
+    component:AdminhomeComponent
+  },
+  {
+    path:"viewFriend",
+    component:FriendsviewComponent
+  },
+  {
+    path:"viewCourse",
+    component:CourseviewComponent
+  },
+ 
+ 
+  {
+    path:"addf",
+    component:AddfriendComponent
+  },
+  {
+    path:"addc",
+    component:AddcourseComponent
+  },
+  {
+    path:"emphome",
+    component:EmphomeComponent
+  }
+]
+
+ 
 
 @NgModule({
   declarations: [
@@ -25,7 +62,8 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
     EmploginComponent,
     EmphomeComponent,
     AddfriendComponent,
-    AddcourseComponent
+    AddcourseComponent,
+    NavempComponent
   ],
   imports: [
     BrowserModule,
