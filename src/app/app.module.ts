@@ -10,6 +10,7 @@ import { FriendsviewComponent } from './friendsview/friendsview.component';
 import { CourseviewComponent } from './courseview/courseview.component';
 import { NavadminComponent } from './navadmin/navadmin.component';
 import { EmploginComponent } from './emplogin/emplogin.component';
+import { EmphomeComponent } from './emphome/emphome.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EmploginComponent } from './emplogin/emplogin.component';
     FriendsviewComponent,
     CourseviewComponent,
     NavadminComponent,
-    EmploginComponent
+    EmploginComponent,
+    EmphomeComponent
   ],
   imports: [
     BrowserModule,
