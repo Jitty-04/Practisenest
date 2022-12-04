@@ -11,6 +11,7 @@ import { CourseviewComponent } from './courseview/courseview.component';
 import { NavadminComponent } from './navadmin/navadmin.component';
 import { EmploginComponent } from './emplogin/emplogin.component';
 import { EmphomeComponent } from './emphome/emphome.component';
+import { AddfriendComponent } from './addfriend/addfriend.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EmphomeComponent } from './emphome/emphome.component';
     CourseviewComponent,
     NavadminComponent,
     EmploginComponent,
-    EmphomeComponent
+    EmphomeComponent,
+    AddfriendComponent
   ],
   imports: [
     BrowserModule,
