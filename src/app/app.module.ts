@@ -14,7 +14,8 @@ import { EmphomeComponent } from './emphome/emphome.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { AddcourseComponent } from './addcourse/addcourse.component';
 import { NavempComponent } from './navemp/navemp.component';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import {HttpClientModule} from '@angular/common/http';
 const myRouter:Routes=[
   {
     path:"",
@@ -46,6 +47,10 @@ const myRouter:Routes=[
   {
     path:"emphome",
     component:EmphomeComponent
+  },
+  {
+    path:"emplogin",
+    component:EmploginComponent
   }
 ]
 
@@ -68,7 +73,9 @@ const myRouter:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(myRouter),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
